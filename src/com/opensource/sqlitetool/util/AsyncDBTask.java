@@ -53,7 +53,7 @@ import android.os.Process;
  *
  * <p>Here is an example of subclassing:</p>
  * <pre class="prettyprint">
- * private class InsertTask extends AsyncDBTask&lt;Void, Void, Void&gt; {
+ * private class InsertTask extends AsyncDBTask&lt;Void, Integer, Void&gt; {
  *     protected Void doInBackground(URL... urls) {
  *         DBUtil.insert(MainActivity.this, 50);
  *         return null;

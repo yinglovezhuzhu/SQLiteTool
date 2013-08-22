@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 	}
 	
 	
-	private class InsertTask extends AsyncDBTask<Void, Void, Void> {
+	private class InsertTask extends AsyncDBTask<Void, Integer, Void> {
 
 		@Override
 		protected Void doInBackground(Void... params) {
@@ -75,7 +75,7 @@ public class MainActivity extends Activity {
 		}
 	}
 	
-	private class DeleteTask extends AsyncDBTask<Void, Void, Void> {
+	private class DeleteTask extends AsyncDBTask<Void, Integer, Void> {
 
 		@Override
 		protected Void doInBackground(Void... params) {
